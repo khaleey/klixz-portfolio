@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klixz Solutionz - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #f7f9fc; color: #333; }
+    header { background: #004080; color: white; padding: 2rem; text-align: center; }
+    nav { display: flex; justify-content: center; gap: 2rem; background: #003366; padding: 1rem; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 3rem 1rem; max-width: 1000px; margin: auto; }
+    h2 { color: #004080; margin-bottom: 1rem; }
+    .projects, .services { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    .card { background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { background: #003366; color: white; text-align: center; padding: 2rem 1rem; }
+    .contact-form input, .contact-form textarea { width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 5px; }
+    .contact-form button { background: #004080; color: white; border: none; padding: 0.75rem 2rem; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Klixz Solutionz</h1>
+    <p>Empowering Businesses with Smart Tech Solutions</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#company">Company</a>
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm [Your Full Name], founder of Klixz Solutionz. With a Bachelor's in Computer Science and a minor in Cybersecurity, I specialize in building impactful tech solutions. I’m also passionate about digital marketing, cryptocurrency, and empowering African SMEs through scalable platforms.</p>
+  </section>
+
+  <section id="company">
+    <h2>About Klixz Solutionz</h2>
+    <p><strong>Mission:</strong> Deliver reliable and scalable digital solutions that empower businesses to thrive in the digital age.</p>
+    <p><strong>Vision:</strong> To be a leading tech partner in Africa and beyond, offering world-class services in software development, cloud computing, and cybersecurity.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects & Case Studies</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>E-commerce Platform</h3>
+        <p>Built for African SMEs to manage and grow online stores.</p>
+      </div>
+      <div class="card">
+        <h3>Power Company Website</h3>
+        <p>User-friendly site for Nigerians to recharge power units securely.</p>
+      </div>
+      <div class="card">
+        <h3>Custom PDF & Canva Designs</h3>
+        <p>Designed company profiles and marketing materials for clients.</p>
+      </div>
+      <div class="card">
+        <h3>Dockerized Pi Node</h3>
+        <p>Secure, scalable blockchain deployment using Docker.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card"><strong>Web & Mobile App Development</strong></div>
+      <div class="card"><strong>Cloud Services (AWS, Azure, etc.)</strong></div>
+      <div class="card"><strong>UI/UX & Graphic Design</strong></div>
+      <div class="card"><strong>IT Consulting & Support</strong></div>
+      <div class="card"><strong>Cybersecurity (Coming Soon)</strong></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>Phone: <a href="tel:+2340000000000">+234 000 000 0000</a></p>
+    <p>Location: Nigeria</p>
+    <p>Socials: 
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Klixz Solutionz. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
